@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <audio id="alert" src="https://notificationsounds.com/soundfiles/53fde96fcc4b4ce72d7739202324cd49/file-sounds-882-solemn.mp3" type="audio/mpeg"></audio>
+    <div class="container-fluid">
+        <div id="wrapper">
+            <center>
+                <div id="content">
+                    <h1 id="title">Pomodoro Clock - A Time Management Tool</h1>
+                    <div class="line"></div>
+                    <h2 id="sessionTitle">Type in Your Session Time in Minutes:</h2>
+                    Session Time: <input type="text" id="sessionTime" value="25">
+                    <h2 id="breakTitle">Type in Your Breaktime in Minutes:</h2>
+                    Break Time: <input type="text" id="breakTime" value="5">
+                    <div id="buttons">
+                        <a class="btn btn-primary" id="startButton">start</a>
+                        <a class="btn btn-primary" id="stopButton">stop</a>
+                    </div>
+                    <p id="parserSession"></p>
+                    <p id="parserBreak"></p>
+                    <h2 id="sessionTimeDisplay"></h2>
+                    <h2 id="breakTimeDisplay"></h2>
+                    <h2 id="advice"></h2>
+                    <h2 id="work"></h2>
+                    <h2 id="break"></h2>
+                    <h2 id="breakOver"></h2>
+
+                </div>
+            </center>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

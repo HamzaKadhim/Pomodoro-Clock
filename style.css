@@ -1,0 +1,47 @@
+body {
+    background: url(https://images6.alphacoders.com/311/thumb-1920-311701.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#wrapper {
+    border: 2px solid black;
+    padding: 100px;
+    margin: 100px;
+    border-radius: 50px;
+    background-color: #DCDCDC;
+    padding: 30px;
+    padding-bottom: 300px;
+    font-family: helvetica;
+}
+
+#sessionTitle,
+#breakTitle,
+#sessionTime,
+#breakTime {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#buttons {
+    margin-top: 30px;
+    font-family: Lobster;
+    font-size: 0px;
+}
+
+#sessionTimeDisplay,
+#breakTimeDisplay,
+#advice,
+#breakOver,
+#work,
+#break {
+    margin-top: 40px;
+}
+
+.line {
+    width: 65%;
+    border-top: 3px solid black;
+    padding-top: 15px;
+}
